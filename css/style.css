@@ -1,0 +1,219 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.skills-container {
+    background-image: linear-gradient(to top right, #EFF4F9, #48B1BF);
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* padding: 0 auto; */
+    justify-content: space-between;
+    gap: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    
+}
+
+
+
+.skills-panel{
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+
+    flex-shrink: 0;
+}
+   
+
+.scroll-instruction-section{
+    background-image: linear-gradient(rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)), url(../images/starting-background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.scroll-down-instruction{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 1.5rem;
+}
+.starting-section{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    position:relative;
+    
+}
+.starting-section-room-container{
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.starting-section-room{
+    align-self:flex-end;
+    height: 60vh;
+    margin-bottom: 8vh;
+    
+    opacity: 0;
+}
+
+.subtitle-test-link{
+    display: inline-block;
+    transform: scale(0);
+}
+
+
+.subtitle-container{
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+    background-color: #00000094;
+    /* min-height: 8vh; */
+    padding: 15px 20px;
+    text-align: center;
+    opacity: 1;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.subtitle-1{
+    justify-self: end;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 1.5rem;
+    margin: 0!important;
+
+}
+
+.node-skill-img{
+    width: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    padding: 35px 20px;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(248, 248, 248);
+}
+.skill-text-heading{
+    font-family: 'Roboto', serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.skill-text{
+    font-family: 'Roboto', serif;
+    text-align: left;
+    color: rgb(82, 81, 81);
+    font-size: 1.1rem;
+}
+
+.work-container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: aqua;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    
+    flex-grow: 0;
+}
+
+.subtitle-work-container{
+    bottom: 0px;
+    width: 100%;
+    position: absolute;
+    background-color: #00000094;
+    /* min-height: 8vh; */
+    padding: 15px 20px;
+    text-align: center;
+    opacity: 1;
+    
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+
+.id-card-1{
+    width: 40vw;
+    align-self: center;
+    opacity: 1;
+
+    
+}
+
+
+.subtitle-2, .subtitle-3{
+    justify-self: end;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+    font-size: 1.5rem;
+    margin: 0!important;
+
+}
+.projects{
+    align-self: center;
+}
+
+.projects-container{
+    background-image: url(../images/blackboard-f.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* padding: 0 auto; */
+    justify-content: space-between;
+    gap: 50px;
+    
+}
+
+.projects-panel{
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    padding-left: 50px;
+    
+
+    flex-shrink: 0;
+}
+.project{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
